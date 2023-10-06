@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 	<!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <!-- Aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 	<!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
@@ -77,7 +80,7 @@
 					</div>
 				</div>
 			</nav>
-			<div class="container-fluid">
+			<div class="container-fluid" data-aos="fade-up">
 				<div id="about" class="row about-section">
 					<div class="col-lg-4 about-card">
 						<h3 class="font-weight-light">Who am I ?</h3>
@@ -86,76 +89,76 @@
 						<p class="mt-20">My name is Nithin Raj, I am B.E Computer Science graduate. My goal is to become a successful Software Engineer in a reputed company. </p>
 						<a href="resumeView.html">
 							<button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i> My Resume</button>
-					    </a>
-					</div>
-					<div class="col-lg-4 about-card">
-						<h3 class="font-weight-light">Personal Info</h3>
-						<span class="line mb-5"></span>
-						<ul class="mt40 info list-unstyled">
-							<li><span>Birthdate</span> : 14/01/2002</li>
-							<li><span>Email</span> : nithinrajr777@gmail.com</li>
-							<li><span>Phone</span> : +91 9790473585</li>
-							<li><span>Degree</span> : B.E Computer Science and Engineering </li>
-							<li><span>Address</span> :  ST.Simons Nagar Soosaipuram, Kollemcode Kanyakumari, Tamilnadu.</li>
-						</ul>
-						<ul class="social-icons pt-3">
-							<li class="social-item"><a class="social-link" target="_blank" 
-								href="https://www.linkedin.com/in/nithin-raj-717b99282"><i 
-								class="ti-linkedin" aria-hidden="true"></i></a></li>
-								<!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li> -->
-								<li class="social-item"><a class="social-link" target="_blank" 
-									href="https://mail.google.com/mail/?view=cm&fs=1&to=nithinrajr777@gmail.com"><i class="ti-google" aria-hidden="true"></i></a></li>
-									<li class="social-item"><a class="social-link" target="_blank" 
-										href="https://www.instagram.com/nithin__r_a_j/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-										<li class="social-item"><a class="social-link" target="_blank" 
-											href="https://github.com/nithinraj-techhub"><i class="ti-github" aria-hidden="true"></i></a></li>
-										</ul>  
-									</div>
-									<div class="col-lg-4 about-card">
-										<h3 class="font-weight-light">My Expertise</h3>
-										<span class="line mb-5"></span>
-										<div class="row">
-											<div class="col-1 text-danger pt-1"><i class="ti-desktop icon-lg"></i></div>
-											<div class="col-10 ml-auto mr-3">
-												<h6>Logical Programming</h6>
-												<p class="subtitle"> I have a strong knowledge about Python and Javascript.</p>
-												<hr>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-											<div class="col-10 ml-auto mr-3">
-												<h6>Web Designing</h6>
-												<p class="subtitle">I am a expert in HTML, CSS, and Bootstrap.</p>
-												<hr>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-											<div class="col-10 ml-auto mr-3">
-												<h6>Software Engineering</h6>
-												<p class="subtitle">I am highly motivated and competent to take up any chalenging roles related to software.</p>
-												<hr>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 about-card">
+                      <h3 class="font-weight-light">Personal Info</h3>
+                      <span class="line mb-5"></span>
+                      <ul class="mt40 info list-unstyled">
+                         <li><span>Birthdate</span> : 14/01/2002</li>
+                         <li><span>Email</span> : nithinrajr777@gmail.com</li>
+                         <li><span>Phone</span> : +91 9790473585</li>
+                         <li><span>Degree</span> : B.E Computer Science and Engineering </li>
+                         <li><span>Address</span> :  ST.Simons Nagar Soosaipuram, Kollemcode Kanyakumari, Tamilnadu.</li>
+                     </ul>
+                     <ul class="social-icons pt-3">
+                         <li class="social-item"><a class="social-link" target="_blank" 
+                            href="https://www.linkedin.com/in/nithin-raj-717b99282"><i 
+                            class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li> -->
+                            <li class="social-item"><a class="social-link" target="_blank" 
+                               href="https://mail.google.com/mail/?view=cm&fs=1&to=nithinrajr777@gmail.com"><i class="ti-google" aria-hidden="true"></i></a></li>
+                               <li class="social-item"><a class="social-link" target="_blank" 
+                                  href="https://www.instagram.com/nithin__r_a_j/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                                  <li class="social-item"><a class="social-link" target="_blank" 
+                                     href="https://github.com/nithinraj-techhub"><i class="ti-github" aria-hidden="true"></i></a></li>
+                                 </ul>  
+                             </div>
+                             <div class="col-lg-4 about-card">
+                              <h3 class="font-weight-light">My Expertise</h3>
+                              <span class="line mb-5"></span>
+                              <div class="row">
+                                 <div class="col-1 text-danger pt-1"><i class="ti-desktop icon-lg"></i></div>
+                                 <div class="col-10 ml-auto mr-3">
+                                    <h6>Logical Programming</h6>
+                                    <p class="subtitle"> I have a strong knowledge about Python and Javascript.</p>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                             <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                             <div class="col-10 ml-auto mr-3">
+                                <h6>Web Designing</h6>
+                                <p class="subtitle">I am a expert in HTML, CSS, and Bootstrap.</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                         <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                         <div class="col-10 ml-auto mr-3">
+                            <h6>Software Engineering</h6>
+                            <p class="subtitle">I am highly motivated and competent to take up any chalenging roles related to software.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-							<!--Resume Section-->
-							<section class="section" id="resume">
-								<div class="container">
-									<h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
-									<div class="row">
-										<div class="col-md-6 col-lg-4">
-											<div class="card">
-												<div class="card-header">
-													<div class="mt-2">
-														<h4>Skills</h4>
-														<span class="line"></span>  
-													</div>
-												</div>
-												<div class="card-body">
+        <!--Resume Section-->
+        <section class="section" id="resume" data-aos="fade-up">
+            <div class="container">
+               <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+               <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                     <div class="card">
+                        <div class="card-header">
+                           <div class="mt-2">
+                              <h4>Skills</h4>
+                              <span class="line"></span>  
+                          </div>
+                      </div>
+                      <div class="card-body">
                             <!-- <h6 class="title text-danger">2017 - Present</h6>
                             <P>UX Developer</P>
                             <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
@@ -470,7 +473,7 @@
         </div>
     </section> -->
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
+    <section class="section bg-custom-gray" id="portfolio" data-aos="fade-up">
     	<div class="container">
     		<h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
     		<div class="portfolio">
@@ -658,7 +661,7 @@
             </div>  
         </div>            
     </section>
-    <section class="section bg-dark py-5">
+    <section class="section bg-dark py-5 mb-5">
     	<div class="container text-center">
     		<h2 class="text-light mb-5 font-weight-normal">I am available for FreeLance</h2>
     		<div class="btn bg-primary w-lg" >Interested ! <span class="text-white">Hire me</span></div>
@@ -737,26 +740,26 @@
         </div>
     </section> --> 
     
-    <div class="section contact" >
+    <div class="section contact">
     	<!-- <div id="map" class="map"></div> -->
     	<div class="container">
-    		<h1 class="mt-5 mb-5 container" id="contact"><span class="text-danger">My</span> Contact</h1>
+    		<h1 class="mb-5 container" id="contact"><span class="text-danger">My</span> Contact</h1>
     		<div class="row">
     			<div class="col-lg-8">
     				<div class="contact-form-card">
     					<h4 class="contact-title">Send a message</h4>
-    					<form action="">
+    					<form action="https://smtpjs.com/v3/smtp.js">
     						<div class="form-group">
-    							<input  class="form-control" type="text" placeholder="Name *" required>
+    							<input  class="form-control" type="text" id="name" placeholder="Name *" required>
     						</div>
     						<div class="form-group">
-    							<input class="form-control" type="email" placeholder="Email *" required>
+    							<input class="form-control" type="email" id="email" placeholder="Email *" required>
     						</div>
     						<div class="form-group">
-    							<textarea class="form-control" id=" placeholder="Message * rows="7" required></textarea>
+    							<textarea class="form-control" id="message" placeholder="Message *" rows="7" required></textarea>
     						</div>
     						<div class="form-group ">
-    							<button type="submit" class="form-control btn btn-primary" >Send Message</button>
+    							<button type="submit" class="form-control btn btn-primary">Send Message</button>
     						</div>
     					</form>
     				</div>
@@ -814,22 +817,47 @@
     					</p>
     				</div>
     			</footer>
+                <script>
+                 AOS.init({
+                    duration: 1000, 
+                    offset: 100,
+                });
+            </script>
 
-    			<!-- core  -->
-    			<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    			<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+            <!-- contact msg to send in email -->
+            <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script>
+            <script type="text/javascript">
+                function sendEmail(){
+                    Email.send({
+                        SecureToken:"7314ce94-f0f7-4ee1-829d-1a2447610066"
+                        
+                        To : 'nithinjr100@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "New Contact Message",
+                        Body : "Name:"+document.getElementById("name").value
+                               +"<br> Email:"+document.getElementById("email").value
+                               +"<br> Message:"+document.getElementById("message").value
+                    }).then(
+                    message => alert(Message Sent Successfully)
+                    );
+                }
+            </script> -->
 
-    			<!-- bootstrap 3 affix -->
-    			<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+            <!-- core  -->
+            <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+            <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-    			<!-- Isotope  -->
-    			<script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+            <!-- bootstrap 3 affix -->
+            <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    			<!-- Google mpas -->
-    			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+            <!-- Isotope  -->
+            <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
 
-    			<!-- JohnDoe js -->
-    			<script src="assets/js/johndoe.js"></script>
+            <!-- Google mpas -->
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
-    		</body>
-    		</html>
+            <!-- JohnDoe js -->
+            <script src="assets/js/johndoe.js"></script>
+
+        </body>
+        </html>
